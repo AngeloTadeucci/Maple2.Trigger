@@ -1,17 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Ochirasu</Authors>
-    <Description>Trigger scripts for MapleStory2</Description>
-    <PackageVersion>1.1.3</PackageVersion>
-    <RepositoryUrl>https://github.com/kOchirasu</RepositoryUrl>
-    <RepositoryType>github</RepositoryType>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Maple2.Trigger.Tadeucci</PackageId>
+		<TargetFramework>net7.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Ochirasu</Authors>
+		<Authors>Tadeucci</Authors>
+		<Description>Trigger scripts for MapleStory2</Description>
+		<PackageVersion>1.2.0</PackageVersion>
+		<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/AngeloTadeucci/Maple2.Trigger</RepositoryUrl>
+		<RepositoryType>github</RepositoryType>
+		<Nullable>enable</Nullable>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
 	<PropertyGroup>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
