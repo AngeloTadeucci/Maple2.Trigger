@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Ochirasu</Authors>
+    <Description>Trigger scripts for MapleStory2</Description>
+    <PackageVersion>1.1.3</PackageVersion>
+    <RepositoryUrl>https://github.com/kOchirasu</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	</PropertyGroup>
+</Project>
