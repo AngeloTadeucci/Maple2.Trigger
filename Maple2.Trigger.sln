@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maple2.Trigger", "Maple2.Trigger\Maple2.Trigger.csproj", "{E60403BB-2C15-49C0-920D-2F9684930204}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maple2.Trigger.Tests", "Test\Maple2.Trigger.Tests.csproj", "{FA4464EC-4848-4BF7-9FC7-042CBA79AB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maple2.Trigger.Tests", "Maple2.Trigger.Tests\Maple2.Trigger.Tests.csproj", "{DB97534F-0EAD-481E-BF0E-2745B84695B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{E60403BB-2C15-49C0-920D-2F9684930204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E60403BB-2C15-49C0-920D-2F9684930204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E60403BB-2C15-49C0-920D-2F9684930204}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA4464EC-4848-4BF7-9FC7-042CBA79AB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA4464EC-4848-4BF7-9FC7-042CBA79AB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA4464EC-4848-4BF7-9FC7-042CBA79AB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA4464EC-4848-4BF7-9FC7-042CBA79AB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB97534F-0EAD-481E-BF0E-2745B84695B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB97534F-0EAD-481E-BF0E-2745B84695B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB97534F-0EAD-481E-BF0E-2745B84695B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB97534F-0EAD-481E-BF0E-2745B84695B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
